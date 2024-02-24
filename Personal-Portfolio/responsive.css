@@ -1,0 +1,101 @@
+@media (max-width:800px) {
+    nav{
+        background-color: #00C2FF;
+        padding: 0 2rem;
+        height: 8rem;
+    }
+    .logo .lname{
+        display: none;
+    }
+    .logo .fname{
+        color: #fff;
+        font-family: cursive;
+    }
+    .sidemenu ul{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        backdrop-filter: blur(10px);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: block;
+        top: 0;
+        transition: 1s ease;
+    }
+    .showNav{
+        right: 0;
+    }
+    .sidemenu ul li{
+        display: flex;
+        padding: 3rem 0;
+        align-items: center;
+        border-bottom: 2px solid gray;
+        justify-content: center;
+    }
+    .sidemenu ul li a{
+        color: white;
+        font-size: 2rem;
+    }
+    .sidemenu i{
+        font-size: 4rem;
+        justify-self: right;
+    }
+    .sidemenu ul li:hover{
+        background-color: gray;
+    }
+    .mainnav>li{
+        display: none;
+    }
+    .mainnav #hamburger{
+        display: block;
+        font-size: 3rem;
+    }
+    .main-photos{
+        display: none;
+    }
+    .main-text-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .main-text-section img{
+        display: block;
+        width: 20rem;
+        margin-bottom: -4rem;
+
+    }
+    .main-text-section h1 span{
+        display: block;
+    }
+    .about-section{
+        width: 100%;
+        padding: 0 .4rem;
+    }
+    .about-image{
+        display: none;
+    }
+    .about-details h2{
+        text-align: left;
+    }
+    .about-details p{
+        width: 85vw;
+        text-align: left;
+        font-size: 1.6rem;
+    }
+    .skill-title{
+        font-size: 2rem;
+        text-align: left;
+        padding-left: 3rem;
+    }
+    .skill-card{
+        width: 40%;
+        margin: 1rem;
+    }
+    
+}
